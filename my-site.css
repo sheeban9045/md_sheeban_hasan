@@ -263,6 +263,7 @@ body {
     padding-top: 10%;
     padding-bottom: 10%;
 }
+
 #home #profile-info-right .profile-info-box1 {
     width: 330px;
     height: 450px;
@@ -508,8 +509,8 @@ body {
     }
     #home #personal-info-section #cv a button {
         cursor: pointer;
-        width: 130px;
-        height: 40px;
+        width: 180px;
+        height: 50px;
         font-size: 15px;
         color: white;
         background-color: var(--main-color);
@@ -520,13 +521,13 @@ body {
     }
     #home #profile-info-right {
         width: 100%;
-        height: 100%;
+        
         padding-top: 10%;
         padding-bottom: 10%;
     }
     #home #profile-info-right .profile-info-box1 {
-        width: 280px;
-        height: 45vh;
+        width: 250px;
+        height: 320px;
         background: #754ef9;
         margin: auto;
         border-radius: 50% 10%;
@@ -535,8 +536,7 @@ body {
         position: relative;
     }
     #home #profile-info-right .profile-info-box1 img {
-        position: absolute;
-        top: -15px;
+        left: -20px;
     }
     #about #about-logo span {
         width: 80px;
@@ -622,8 +622,8 @@ body {
     }
     #home #profile-info-right .profile-info-box1 {
         width: 250px;
-        height: 45vh;
-        background: #754ef9;
+        height: 300px;
+        background: var(--main-color);
         margin: auto;
         border-radius: 50% 10%;
         overflow: hidden;
@@ -647,7 +647,7 @@ body {
         height: 300px;       
     }
     #about #about-img-section .about-img-box img {  
-        left: -20px;
+        left: -50px;
     }   
     #about #about-profile-section h1 {
         font-size: 1.8rem;
