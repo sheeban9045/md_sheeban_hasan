@@ -16,7 +16,7 @@ body ,html {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 100;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 1px 5px 2px rgb(199, 195, 195);
     display: flex;
@@ -194,7 +194,7 @@ body ,html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    z-index: 9;
     width: 80%;
     padding: 20px;
     text-align: center;
