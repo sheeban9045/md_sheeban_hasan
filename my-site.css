@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-body {
+body, html {
+    height: 100%;
+    margin: 0;
     font-family: 'Bitter', serif;
 }
 
@@ -163,15 +165,12 @@ body {
         font-size: 25px;
     }
 }
-/* .bg-image {
+ .bg-image {
     
     background-image: url("img3.jpg");
-    
-    
     filter: blur(2px);
     -webkit-filter: blur(2px);
-    
-    
+
     height: 100%; 
     width:100%;
     
@@ -179,10 +178,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-   */ 
     
 /* Position text in the middle of the page/image */
-/*.bg-text {
+
+.bg-text {
     background-color: rgb(0,0,0);
     background-color: rgba(0, 0, 0, 0.664); 
     color: white;
@@ -208,7 +207,7 @@ body {
     color: var(--main-color);
     text-shadow: 1px 0 1px var(--main-color);
 }
- */
+ 
 #home {
     z-index: 99;
     padding-top: 4%;
