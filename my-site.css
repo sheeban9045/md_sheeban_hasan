@@ -163,28 +163,28 @@ body {
         font-size: 25px;
     }
 }
-.bg-image {
-    /* The image used */
+/* .bg-image {
+    
     background-image: url("img3.jpg");
     
-    /* Add the blur effect */
+    
     filter: blur(2px);
     -webkit-filter: blur(2px);
     
-    /* Full height */
+    
     height: 100%; 
     width:100%;
-    /* Center and scale the image nicely */
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-    
+   */ 
     
 /* Position text in the middle of the page/image */
-.bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.664); /* Black w/opacity/see-through */
+/*.bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.664); 
     color: white;
     font-weight: bold;
     border: 3px solid var(--main-color);
@@ -208,7 +208,7 @@ body {
     color: var(--main-color);
     text-shadow: 1px 0 1px var(--main-color);
 }
-
+ */
 #home {
     z-index: 99;
     padding-top: 4%;
