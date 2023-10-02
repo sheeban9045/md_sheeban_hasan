@@ -202,6 +202,11 @@ body ,html {
     text-align: center;
 }
 
+.bg-text h1 span {
+    font-size:2rem;
+    color:var(--main-color);
+    text-shadow: 1px 0 1px var(--main-color);
+}
 .bg-text p span {
     font-size: 1.5rem;
     color: var(--main-color);
