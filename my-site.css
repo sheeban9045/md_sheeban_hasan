@@ -203,7 +203,7 @@ body ,html {
 }
 
 .bg-text h1 span {
-    font-size:2rem;
+    font-size:2.5rem;
     color:var(--main-color);
     text-shadow: 1px 0 1px var(--main-color);
 }
