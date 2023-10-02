@@ -4,9 +4,7 @@ body ,html {
     height: 100%;
     margin: 0;
 }
-* {
-    box-sizing: border-box;
-}
+
 :root {
     --primary-color: white;
     --secondry-color: #000000;
