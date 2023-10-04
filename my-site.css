@@ -52,7 +52,7 @@ body, html {
     text-align: right;
     display: flex;
     height: 100%;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 
 }
