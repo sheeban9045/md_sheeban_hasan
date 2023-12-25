@@ -458,7 +458,14 @@ body, html {
     margin-bottom: 5%;
     width: 100%;
 }
-
+#project #project-logo span {
+    display: block;
+    width: 110px;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 3px double var(--main-color);
+    color: var(--main-color);  
+}
 #contact{
     margin-top: 5%;
     padding-top: 50px;
