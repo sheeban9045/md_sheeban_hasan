@@ -446,6 +446,19 @@ body, html {
     letter-spacing: 1px;
     word-spacing: 3px;
 }
+
+#project{
+    margin-top: 5%;
+    padding-top: 50px;
+    margin-bottom: 5%;
+}
+#project #project-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
 #contact{
     margin-top: 5%;
     padding-top: 50px;
