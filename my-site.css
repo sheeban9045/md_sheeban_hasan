@@ -487,35 +487,7 @@ body, html {
     color: var(--main-color);
     
 }
-#contact form{
-    width: 100%;
-    height: auto;
-    background-color: #bdbdbd;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 0 5px 2px rgb(140, 136, 136);
-} 
-#contact form #form-logo{
-    width: 100%;
-    text-align: center;
-} 
-#contact form #form-logo span{
-    color: #000000;
-    font-size: 20px;
-} 
-#contact form #name{
-    width: 100%;
-    border: 1px solid rgb(197, 195, 195);
-    border-radius: 3px;
-    margin: 10px 0;
-}
-#contact form #name:focus{
-   
-   outline: 2px solid rgb(90, 136, 234);
-   border-radius: 2px;
-   border: none;
 
-}
 #footer{
     width: 100%;
     min-height: 70px;
