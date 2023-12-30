@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="my-site.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
@@ -219,36 +220,103 @@
     </div>
     
     <div id="contact">
+        <section class="ftco-section">
         <div class="container">
             <div class="row">
                 <div id="contact-logo" data-aos="flip-up">
                     <span>Contact</span>
                 </div>
             </div>      
-            <form action="https://formspree.io/f/meqddeqw"  method="POST" data-aos="flip-right">
-                <div id="form-logo">
-                    <span>Contact Me</span>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <input type="text" name="first-name"  id="name" placeholder="Enter first name.." required autocomplete="off">
-                    </div>
-                    <div class="col-md-6">
-                        <input type="text" name="last-name"  id="name" placeholder="Enter last name.." autocomplete="off">
-                    </div>
-                    <div class="col-md-12">
-                        <input type="email" name="email"  id="name" placeholder="Enter E-mail.." required autocomplete="off">
-                    </div>
-                    <div class="col-md-12">
-                        <textarea name="message" rows="4" id="name" placeholder="message..." style="width: 100%;" required autocomplete="off"></textarea>
-                    </div>
-                    <div class="col-3">
-                        <input class="btn btn-primary" type="submit" value="submit" >
-                    </div>
-                </div>
-            </form>
+            <div class="row justify-content-center">
+				<div class="col-lg-10 col-md-12">
+					<div class="wrapper">
+						<div class="row no-gutters">
+							<div class="col-md-7 d-flex align-items-stretch">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h3 class="mb-4">Send mail</h3>
+									<form action="https://formspree.io/f/meqddeqw"  method="POST" data-aos="flip-right">										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="text" class="form-control" name="name" id="name"
+														placeholder="Name">
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="email" class="form-control" name="email" id="email"
+														placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" class="form-control" name="subject" id="subject"
+														placeholder="Subject">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<textarea name="message" class="form-control" id="message" cols="30"
+														rows="7" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Send Message" class="btn btn-primary">
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-md-5 d-flex align-items-stretch">
+								<div class="info-wrap w-100 p-lg-5 p-4" style="background-color: #754EF9;">
+									<h3 class="mb-4 mt-md-4">Contact us</h3>
+									<div class="dbox w-100 d-flex align-items-start">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="fa fa-map-marker"></span>
+										</div>
+										<div class="text pl-3">
+											<p><span>Address:</span> Ghaziabad, Uttar Pradesh, India</p>
+										</div>
+									</div>
+									<div class="dbox w-100 d-flex align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="fa fa-phone"></span>
+										</div>
+										<div class="text pl-3">
+											<p><span>Phone:</span> <a href="tel://1234567920">+91 9045135069</a></p>
+										</div>
+									</div>
+									<div class="dbox w-100 d-flex align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="fa fa-paper-plane"></span>
+										</div>
+										<div class="text pl-3">
+											<p><span>Email:</span> <a
+													href="mailto:info@yoursite.com">sheebanhasan7@gmail.com</a></p>
+										</div>
+									</div>
+									<div class="dbox w-100 d-flex align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="fa fa-globe"></span>
+										</div>
+										<div class="text pl-3">
+											<p><span>Website:</span> <a
+													href="https://sheebanhasan.github.io/md_sheeban_hasan/">Sheeban
+													Hasan</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
         </div>
+        </section>
     </div>
+
+    
     <div id="footer" >
         <div class="container">
             <div class="row">
