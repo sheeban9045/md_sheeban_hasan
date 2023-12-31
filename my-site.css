@@ -166,48 +166,6 @@ body, html {
         margin-right:20px;
     }
 }
- .bg-image {
-    
-    background-image: url("img3.jpg");
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
-
-    height: 100%; 
-    width:100%;
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-    
-/* Position text in the middle of the page/image */
-
-.bg-text {
-    background-color: rgb(0,0,0);
-    background-color: rgba(0, 0, 0, 0.664); 
-    color: white;
-    font-weight: bold;
-    border: 3px solid var(--main-color);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9;
-    width: 80%;
-    padding: 20px;
-    text-align: center;
-}
-
-.bg-text h1 span {
-    font-size:3.5rem;
-    color:var(--main-color);
-    text-shadow: 1px 0 1px var(--main-color);
-}
-.bg-text p span {
-    font-size: 1.5rem;
-    color: var(--main-color);
-    text-shadow: 1px 0 1px var(--main-color);
-}
  
 #home {
     z-index: 99;
