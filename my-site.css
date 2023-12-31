@@ -564,11 +564,11 @@ body, html {
         font-size: 10px;
     }
     #service #service-logo span {
-        width: 90px;
+        width: 110px;
         font-size: 25px;
     }          
     #contact #contact-logo span {   
-        width: 90px;
+        width: 110px;
         font-size: 25px;
     }
 }
@@ -661,7 +661,7 @@ body, html {
         font-size: 10px;       
     }
     #service #service-logo span {
-        width: 80px;
+        width: 110px;
         font-size: 20px;  
     }
     #service #service-box i {
@@ -674,7 +674,7 @@ body, html {
         font-size: 15px;
     }
     #contact #contact-logo span {
-        width: 75px;
+        width: 110px;
         font-size: 20px;
     }
 }
