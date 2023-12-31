@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+b@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 body, html {
     height: 100%;
     margin: 0;
@@ -374,7 +374,7 @@ body, html {
 }
 #service #service-logo span {
     display: block;
-    width: 110px;
+    width: 126px;
     font-size: 30px;
     text-align: center;
     border-bottom: 3px double var(--main-color);
@@ -438,7 +438,7 @@ body, html {
 }
 #contact #contact-logo span {
     display: block;
-    width: 110px;
+    width: 126px;
     font-size: 30px;
     text-align: center;
     border-bottom: 3px double var(--main-color);
